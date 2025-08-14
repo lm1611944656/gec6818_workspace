@@ -1,0 +1,133 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="第 1 页" id="JrGkVFd3arlPJi5YyBwQ">
+    <mxGraphModel dx="1877" dy="1798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Sheg45RuAoLDCPXPyZug-1" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="80" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-2" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-3" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="80" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-5" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="500" y="80" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-6" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="369" y="80" width="131" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-7" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;0x0000 0000&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="100" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;0x4000 0000&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-9" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;0xC000 0000&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="100" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-10" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 20px;&quot;&gt;0xE000 0000&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="100" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-12" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;0xFFFF 0000&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="100" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-13" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Internal SRAM&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="687" y="40" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-14" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;保留&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="40" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-15" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;I/O 口&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="364.5" y="40" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-16" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;1G DDR&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="40" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-17" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Internal ROM&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="40" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-18" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#0000CC;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="40" y="210" as="sourcePoint" />
+            <mxPoint x="40" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-19" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;SDHC #0 1 2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-47.5" y="220" width="860" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-37.5" y="230" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="82.5" y="230" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="202.5" y="230" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="230" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="442.5" y="230" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-27" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;................................&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="622.5" y="270" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-28" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="-47.5" y="370" width="860" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-29" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;8G eMMC&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="323.5" y="390" width="126" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="-30" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-31" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;扇&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;区&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;0&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-27.5" y="245" width="30" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-32" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;分区0&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="22.5" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-33" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;分区1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="142.5" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-34" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;分区2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="263.5" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-35" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;分区3&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="382.5" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-36" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;分区4&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="502.5" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-37" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;1. 扇区0记录的是eMMC的分区信息(我这张eMMC卡分为几个分区，每个分区有多大等这些信息)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="410" width="855" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-38" value="用户的boot&lt;div&gt;代码56K&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="82.5" y="230" width="40" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-41" value="1M的完整Uboot" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="142.5" y="260" width="40" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-42" value="存放着大概5M的内核" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="222.5" y="290" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-43" value="存放文件系统" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="342.5" y="290" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-44" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;（0）. 三星公司固化了20k的代码在红色部分:&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;用于初始化CPU，初始化时钟等一些基础硬件；&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;初始化完成之后，20K的代码还要去拷贝eMMC中的56K的boot代码到SRAM&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="-180" width="657.5" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="Sheg45RuAoLDCPXPyZug-45" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;（1）. SRAM接收到56K的代码后，执行这56K的代码(完成初始化DDR);&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;DDR初始化完成之后，就去拷贝1M的完整的Uboot到DDR中来执行。&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;（2）. Uboot在DDR中执行时，就会拷贝5M的内核将内核运行起来，再去拷贝文件系统运行起来。&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="-200" width="370" height="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
