@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "kernel.h": "c",
+        "cdev.h": "c",
+        "types.h": "c",
+        "gpio.h": "c",
+        "cfg_type.h": "c"
+    }
+}

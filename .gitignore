@@ -1,2 +1,14 @@
 # 忽略任何位置的名为 build 的文件夹及其内容
 **/build/
+
+# 忽略任意目录下的下面文件
+**/*.o 
+**/*.order 
+**/.*.cmd 
+**/*.mod.c 
+**/*.symvers 
+**/*.ko
+**/*.ko.cmd
+**/.tmp_versions/
+**/*.code-workspace
+**/.tmp_versions

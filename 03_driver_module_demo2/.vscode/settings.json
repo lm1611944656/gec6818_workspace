@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "module.h": "c",
+        "uaccess.h": "c",
+        "cdev.h": "c",
+        "kernel.h": "c"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "types.h": "c",
+        "io.h": "c",
+        "ioport.h": "c"
+    }
+}

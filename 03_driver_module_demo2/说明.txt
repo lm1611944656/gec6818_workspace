@@ -1,0 +1,30 @@
+﻿1. 编译应用层程序
+    arm-linux-gcc -o bbbs chrdev_app.c
+
+2. 编译驱动层程序
+    make
+
+3. 拷贝应用层程序到文件服务器
+    查看文件服务器是否已经存在应用程序
+    ls -alh /home/scholar/tftp/bbbs
+
+    ls -alh /home/scholar/tftp/chrdev.ko
+
+4. 从文件服务器中下载文件到开发板
+    tftp -g -r bbbs 192.168.31.63
+    tftp -g -r chrdev.ko 192.168.31.63
+
+5. 将驱动模块加载到内核
+    insmod chrdev.ko
+
+6. 驱动模块加载到内核之后，查看内核中是否真的已经加载了驱动模块
+    cat /proc/devices
+
+7. 将驱动模块生成设备文件
+    mknod /dev/DevNameTest c 243 0
+
+8. 查看设备文件
+    ls /dev
+
+9. 改变应用程序的权限
+    chmod 777 bbbs

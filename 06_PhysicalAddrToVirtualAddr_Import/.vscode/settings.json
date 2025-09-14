@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "uaccess.h": "c",
+        "device.h": "c"
+    }
+}

@@ -1,0 +1,17 @@
+﻿第1步：编译驱动模块
+    make
+
+第2步：将编译好的驱动模块，放置在tftp服务器指定的目录下
+    cp ./module.ko /home/scholar/tftp/
+
+第3步：在开发板进入到内核之后执行
+    tftp -g -r module.ko 192.168.xxxx 
+
+第4步：在开发板上将驱动模块挂载到内核中
+    insmod module.ko
+
+第5步：在开发板上查询已经加载到内核中的驱动模块
+    lsmod 
+
+第6步：在开发板上将驱动模块从内核中移除
+    rmmod module
