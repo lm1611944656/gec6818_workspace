@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "kernel.h": "c",
+        "uaccess.h": "c",
+        "device.h": "c",
+        "cstdlib": "c"
+    }
+}
