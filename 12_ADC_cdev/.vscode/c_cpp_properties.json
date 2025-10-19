@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Linux Kernel",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/scholar/test/6818GEC/kernel/include",
+                "/home/scholar/test/6818GEC/GEC6818uboot/board/s5p6818/common"
+            ],
+            "defines": [
+                "__KERNEL__", // 关键！让内核头文件生效
+                "MODULE",     // 编译模块需要
+                "CONFIG_ARM64" // 根据你的架构添加，可选但推荐
+            ],
+            "compilerPath": "/usr/bin/gcc", // 如果是交叉编译，必须改为交叉编译器路径！
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-arm64" // 根据编译器和架构调整
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,5 @@
+﻿# 编译设备树源文件
+dtc -I dts -O dtb -o gec6818.dtb gec6818.dts
+
+# dtsi是设备树的源文件
+

@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "module.h": "c",
+        "uaccess.h": "c",
+        "io.h": "c"
+    }
+}

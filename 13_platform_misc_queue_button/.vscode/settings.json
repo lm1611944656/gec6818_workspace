@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "platform_device.h": "c",
+        "module.h": "c",
+        "miscdevice.h": "c",
+        "mod_devicetable.h": "c",
+        "ioctl.h": "c",
+        "ktime.h": "c",
+        "of_address.h": "c",
+        "of.h": "c"
+    }
+}
