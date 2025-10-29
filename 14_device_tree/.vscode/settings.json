@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "miscdevice.h": "c",
+        "of_fdt.h": "c"
+    }
+}

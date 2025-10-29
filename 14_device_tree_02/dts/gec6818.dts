@@ -27,7 +27,7 @@
         #interrupt-cells = <2>;     // 作为中断控制器，你得需要两个单元表示【哪个中断口(中断号)，具体那种中断触发方式】
     };
 
-    // 设备节点
+    // 按键设备节点
     key4s{
         compatible = "gec,keyDemo";     // 兼容性标识，用于匹配驱动程序
         interrupt-parent = <&gpioA>;    // 当前设备节点的中断父控制器是gpioA。
@@ -36,4 +36,11 @@
                       168 3
                       169 3>;           // 中断号和中断触发方式
     };
+
+    // 蜂鸣器设备节点
+    buzzer{
+        compatible = "gec,buzzerDemo";     // 兼容性标识，用于匹配驱动程序
+        buzzer_gpio = <&gpioA 78 1>;       // GPIOC14的端口号为：【2 * 32 + 14】
+    };
+
 };
